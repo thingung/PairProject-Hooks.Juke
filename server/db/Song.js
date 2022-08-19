@@ -9,7 +9,7 @@ const Song = db.define('song', {
             notEmpty: true
         }
     },
-    audioURL: {
+    audioUrl: {
         type: Sequelize.STRING
     },
     genre: {
