@@ -5,7 +5,8 @@ router.get('/', async(req, res, next) => {
     try{
         const allAlbums = await Album.findAll();
         console.log(allAlbums);
+        res.send(allAlbums)
     }catch(error){
         next(error);
     }
-})
+});
