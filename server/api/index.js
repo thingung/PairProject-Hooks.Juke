@@ -1,7 +1,7 @@
 const router = require('express').Router()
 
 // connect your API routes here!
-router.use('/api/albums', require('./api/albums'))
+router.use('/albums', require('./albums'))
 
 
 module.exports = router
